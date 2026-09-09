@@ -6,7 +6,7 @@ Traditional data-driven neural networks often act as black boxes, learning patte
 ## Key Features & Architecture
 - **Dual-Branch Architecture**: Combines an Image Processing Branch (EBSD spatial features) with a Crystallographic Branch (Euler angles & Schmid factors).
 - **Physics-Augmented Loss Function**:
-  Augmented with grain boundary misorientation and Schmid factor constraints -
+  Augmented with grain boundary misorientation and Schmid factor constraints ---> 
   L_PI = L_data + lambda_1(L_misorient) + lambda_2(L_Schmid)
 - **Feature Fusion**: Uses an attention mechanism to combine crystallographic features with spatial images.
 
